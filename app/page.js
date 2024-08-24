@@ -9,8 +9,10 @@ import AboutMe from "@/Comonents/About";
 import Footer from "@/Comonents/Footer";
 
 export default function Home() {
+  
   return (
    <div className="container-fluid">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
    <Navbar></Navbar>
    <HeroSection></HeroSection>
    <Projects></Projects>
