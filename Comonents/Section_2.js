@@ -90,26 +90,13 @@ export default function HeroSection() {
                 margin: '0 auto',
               }}
             >
-              software engineer graduated from the Information Technology
+              Full Stack Web Developer graduated from the Information Technology
               Institute (ITI), certified by Google as a Data Analyst. I'm
               proficient in JavaScript, ES6, jQuery, React, Python, Django,
               Flask, SQL, PostgreSQL, MySQL, MongoDB, HTML5, CSS3, Bootstrap,
               Git, GitHub, Bash scripting, Apache, Odoo, Docker, C, C++, PHP,
               and WordPress.
             </p>
-          </div>
-          <div className="col-lg-4 col-md-6 col-sm-12 text-center">
-            <img
-              src="./imges/img.jpeg"
-              alt="Mahmoud Amr Hassan"
-              style={{
-                width: '250px',
-                height: '250px',
-                borderRadius: '50%',
-                border: '5px solid #1c1e21',
-                boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.3)',
-              }}
-            />
             <Button
           variant="primary"
           className="mt-4 hero-button"
@@ -125,7 +112,20 @@ export default function HeroSection() {
           <a className="btn" href="./imges/mahmoudamrhassan_resume01.pdf">
             Download CV
           </a>
-        </Button>
+        </Button></div>
+          <div className="col-lg-4 col-md-6 col-sm-12 text-end">
+            <img
+              src="./imges/img.jpeg"
+              alt="Mahmoud Amr Hassan"
+              style={{
+                width: '300px',
+                height: '300px',
+                borderRadius: '50%',
+                border: '5px solid #1c1e21',
+                boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.3)',
+              }}
+            />
+          
           </div>
 
         </div>
