@@ -30,7 +30,7 @@ export default function Header() {
                 <a href="#projects" className="nav-link">Projects</a>
               </li>
               <li className="nav-item">
-                <a href="#journey" className="nav-link">Journey</a>
+                <a href="#journey" className="nav-link">About Me</a>
               </li>
               <li className="nav-item">
                 <a href="#services" className="nav-link">Services</a>

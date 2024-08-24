@@ -3,7 +3,7 @@ import { Button } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css'
 export default function HeroSection() {
   return (
-    <section className="d-flex align-items-center"  style={{'background-color': '#1c1e21','padding': '100px', 'position': 'relative'}}>
+    <section className="container-fluid d-flex align-items-center"  style={{'background-color': '#1c1e21','padding': '100px', 'position': 'relative'}}>
       <div className="container text-center text-white">
         <div className='col-8 '> 
         <h1 className="hero-title" style={{  'font-size': '2.5rem', 'font-weight': '700','line-height':' 1.2'}}>
