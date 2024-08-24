@@ -3,7 +3,7 @@ import React from 'react';
 
 const AboutMe = () => {
   return (
-    <section style={styles.aboutSection}>
+    <section id='Aboutme' style={styles.aboutSection}>
       <div style={styles.contentWrapper}>
         <div style={styles.textContainer}>
           <h2 style={styles.title}>About Me</h2>
@@ -16,8 +16,8 @@ const AboutMe = () => {
         </div>
         <div style={styles.imageContainer}>
           <img
-            src="/img.jpeg"
-            alt="Your Name"
+            src="/imges/img.jpeg"
+            alt="Mahmoud Amr Hassan"
             style={styles.profileImage}
           />
         </div>

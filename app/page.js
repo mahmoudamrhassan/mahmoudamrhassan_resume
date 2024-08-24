@@ -6,18 +6,18 @@ import Projects from '@/Comonents/Projccts'
 import Skills from '@/Comonents/Skills'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutMe from "@/Comonents/About";
-// import Footer from "@/Comonents/Footer";
+import Footer from "@/Comonents/Footer";
 
 export default function Home() {
   return (
-   <>
+   <div className="container-fluid">
    <Navbar></Navbar>
    <HeroSection></HeroSection>
    <Projects></Projects>
    <Skills></Skills>
    <AboutMe></AboutMe>
-   {/* <Footer></Footer> */}
-   </>
+   <Footer></Footer>
+   </div>
 
 
   );

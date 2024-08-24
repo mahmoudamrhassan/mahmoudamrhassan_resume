@@ -4,24 +4,26 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
+
   return (
-    <footer style={styles.footer}>
+    <footer className='bg-dark' style={styles.footer}>
       <div style={styles.container}>
         <p style={styles.text}>Connect with me:</p>
-        <div style={styles.socialIcons}>
-          <a href="https://github.com/yourusername" target="_blank" rel="noopener noreferrer" style={styles.icon}>
-            <FontAwesomeIcon icon={faGithub} size="2x" />
+        <div style={styles.socialIcons} id='contact'> 
+          <a href="https://github.com/mahmoudamr5896" target="_blank" rel="noopener noreferrer" style={styles.icon}>
+            <FontAwesomeIcon icon={faGithub} size="1x"  className='me-2'style={{width:'50px'}} />
           </a>
-          <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer" style={styles.icon}>
-            <FontAwesomeIcon icon={faLinkedin} size="2x" />
+          <a href="https://linkedin.com/in/mahmoudamrhassan"  target="_blank" rel="noopener noreferrer" style={styles.icon}>
+            <FontAwesomeIcon icon={faLinkedin} size="1x" className='me-2' style={{width:'50px'}}/>
           </a>
-          <a href="https://twitter.com/yourusername" target="_blank" rel="noopener noreferrer" style={styles.icon}>
-            <FontAwesomeIcon icon={faTwitter} size="2x" />
+          <a href="https://twitter.com/"  target="_blank" rel="noopener noreferrer" style={styles.icon}>
+            <FontAwesomeIcon icon={faTwitter} size="1x"  className='me-2'style={{width:'50px'}}/>
           </a>
         </div>
         <p style={styles.copyright}>
-          © {new Date().getFullYear()} Your Name. All rights reserved.
+          © {new Date().getFullYear()} Mahmoud Amr Hassan. All rights reserved.
         </p>
+
       </div>
     </footer>
   );
@@ -44,7 +46,6 @@ const styles = {
     marginBottom: '1rem',
   },
   socialIcons: {
-    display: 'flex',
     justifyContent: 'center',
     gap: '1.5rem',
     marginBottom: '1rem',
@@ -53,6 +54,7 @@ const styles = {
     color: '#fff',
     textDecoration: 'none',
     transition: 'color 0.3s',
+    width:'50px'
   },
   iconHover: {
     color: '#6c63ff',

@@ -4,65 +4,94 @@ import React from 'react';
 const projects = [
   {
     title: 'Todo List Project',
-    description: 'Responsive HTML/CSS layout . HTML5, CSS3 (SCSS) Django',
-    image: '/download.png',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/todo.png',
     livePreview: '#',
-    github: '#',
+    github: 'https://github.com/mahmoudamr5896/Todo-List ',
   },
   {
-    title: 'Designer furniture store landing page',
-    description: 'Responsive HTML/CSS layout for an online store of designer furniture. HTML5, CSS3 (SCSS)',
-    image: '/img.jpeg',
+    title: 'Web Application E-Commece',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/react1.png',
     livePreview: '#',
-    github: '#',
+    github: 'https://github.com/mahmoudamr5896/ecommerce_project ',
   },
   {
-    title: 'Landing page for front-end developer',
-    description: 'Responsive HTML/CSS layout for a landing page for a front-end developer. HTML5, CSS3 (SCSS)',
-    image: '/img.jpeg',
+    title: 'Web Application Movies',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/movies.jpeg',
     livePreview: '#',
-    github: '#',
+    github: 'https://github.com/mahmoudamr5896/day3',
   },
   {
-    title: 'Website redesign for The Venus project',
-    description: 'Responsive HTML/CSS layout for The Venus project. HTML5, CSS3 (SCSS)',
-    image: '/img.jpeg',
+    title: 'Project Database Engine in BASH',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/bash.jpeg',
     livePreview: '#',
-    github: '#',
+    github: 'https://github.com/mahmoudamr5896/Bash_project_database_Engine ',
   },
   {
-    title: 'Website redesign for The Venus project',
-    description: 'Responsive HTML/CSS layout for The Venus project. HTML5, CSS3 (SCSS)',
-    image: '/img.jpeg',
-    livePreview: '#',
-    github: '#',
+    title: 'Web Application Mshroh Courses Online',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/mashroh.jpg',
+    livePreview: '',
+    github: 'https://github.com/mahmoudamr5896/project_Mashrowh ',
   },
   {
-    title: 'Website redesign for The Venus project',
-    description: 'Responsive HTML/CSS layout for The Venus project. HTML5, CSS3 (SCSS)',
-    image: '/img.jpeg',
+    title: 'Web Application clothing Shop clothes',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/clothing.jpg',
     livePreview: '#',
-    github: '#',
+    github: 'https://github.com/mahmoudamr5896/E-commerce-website ',
   },
   {
-    title: 'Website redesign for The Venus project',
-    description: 'Responsive HTML/CSS layout for The Venus project. HTML5, CSS3 (SCSS)',
-    image: '/img.jpeg',
+    title: 'Web Application E-commerce',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/ecommerce1.png',
     livePreview: '#',
-    github: '#',
+    github: 'https://github.com/mahmoudamr5896/',
   },
   {
-    title: 'Website redesign for The Venus project',
-    description: 'Responsive HTML/CSS layout for The Venus project. HTML5, CSS3 (SCSS)',
-    image: '/img.jpeg',
+    title: 'Web Application Mr./Health',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/mrhealth.png',
     livePreview: '#',
-    github: '#',
+    github: 'https://github.com/mahmoudamr5896/Final_Project_ITI ',
   },
+  {
+    title: 'Web Application Book store',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/bookstor.png',
+    livePreview: '#',
+    github: 'https://github.com/mahmoudamr5896/project-book-store ',
+  },
+  {
+    title: 'Web Application Angular E Commerce',
+    description: 'This is a simple card component created using CSS. Teck Stack Python Django HTML Css',
+    image: '/imges/ecommerce2.png',
+    livePreview: '#',
+    github: 'https://github.com/mahmoudamr5896/Angulat-project-e-commerce',
+  },
+  {
+    title: 'Project Ecommpece Web App Vue.js',
+    description: 'This is a simple card component created using CSS. Teck Stack Firebase HTML Css',
+    image: '/imges/vuejs.png',
+    livePreview: '#',
+    github: 'https://github.com/mahmoudamr5896/vueproject ',
+  },
+  {
+    title: 'Project Laravel Posts',
+    description: 'This is a simple card component created using CSS. Teck Stack PHP Laravel HTML Css',
+    image: '/imges/laravel.png',
+    livePreview: '#',
+    github: 'https://github.com/mahmoudamr5896/project-laravel',
+  },
+ 
 ];
 
 const Projects = () => {
   return (
-    <section style={styles.projectsSection}>
+    <section id='projects' className='container-fluid' style={styles.projectsSection}>
       <h2 style={styles.title}>Projects</h2>
       <div style={styles.projectsGrid}>
         {projects.map((project, index) => (
@@ -71,7 +100,7 @@ const Projects = () => {
             <h3 style={styles.projectTitle}>{project.title}</h3>
             <p style={styles.projectDescription}>{project.description}</p>
             <div style={styles.buttons}>
-              <a href={project.livePreview} style={styles.button} target="_blank" rel="noopener noreferrer">Live preview</a>
+              <a href={project.livePreview} className='me-2' style={styles.button} target="_blank" rel="noopener noreferrer">Live preview</a>
               <a href={project.github} style={styles.button} target="_blank" rel="noopener noreferrer">Check on GitHub</a>
             </div>
           </div>
