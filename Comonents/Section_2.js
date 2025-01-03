@@ -131,6 +131,8 @@ export default function HeroSection() {
         </div>
       
       </div>
+      <hr style={{  color:'white',
+    height:'3px'}}></hr>
     </section>
   );
 }

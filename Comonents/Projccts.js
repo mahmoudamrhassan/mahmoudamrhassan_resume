@@ -319,6 +319,8 @@ const Projects = () => {
           <button style={styles.seeMoreButton} onClick={handleSeeMore}>See More</button>
         </div>
       )}
+              <hr style={styles.hr}></hr>
+
     </section>
   );
 };
@@ -384,6 +386,10 @@ const styles = {
     cursor: 'pointer',
     transition: 'background-color 0.3s ease',
   },
+  hr: { 
+    color:'white',
+    height:'3px'
+    },
 };
 
 export default Projects;
