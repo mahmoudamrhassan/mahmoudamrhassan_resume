@@ -7,6 +7,7 @@ import Skills from '@/Comonents/Skills'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import AboutMe from "@/Comonents/About";
 import Footer from "@/Comonents/Footer";
+import Timeline from "@/Comonents/Timeline";
 
 export default function Home() {
   
@@ -18,6 +19,7 @@ export default function Home() {
    <Projects></Projects>
    <Skills></Skills>
    <AboutMe></AboutMe>
+   <Timeline></Timeline>
    <Footer></Footer>
    </div>
 

@@ -1,0 +1,40 @@
+.timeline {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 1rem;
+    background-color: #121212; /* Dark background */
+    color: #fff; /* White text for contrast */
+    border-radius: 10px;
+  }
+  
+  .item {
+    text-align: center;
+    width: 15%;
+  }
+  
+  .year {
+    font-size: 1.5rem;
+    font-weight: bold;
+    background-color: #1f1f1f; /* Darker circle background */
+    padding: 1rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    color: #ffcc00; /* Highlighted year color */
+  }
+  
+  .content {
+    background: #1f1f1f; /* Dark card background */
+    border: 1px solid #333; /* Subtle border */
+    border-radius: 8px;
+    padding: 1rem;
+    color: #ddd; /* Softer white for text */
+  }
+  
+  .icon {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    color: #ffcc00; /* Highlight icon color */
+  }
+  
+  

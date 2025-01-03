@@ -6,14 +6,24 @@ const skills = [
   { name: 'CSS, Sass & Bootstrap', level: 'Advanced', width: '90%' },
   { name: 'JavaScript, TypeScript, JQuery', level: 'Advanced', width: '85%' },
   { name: 'UI design in Figma', level: 'Regular', width: '65%' },
-  { name: 'Angular', level: 'Beginner', width: '50%' },
-  { name: 'React', level: 'Beginner', width: '50%' },
-  { name: 'React Native', level: 'Beginner', width: '50%' },
+  { name: 'Angular', level: 'Advanced', width: '90%' },
+  { name: 'React', level: 'Advanced', width: '90%' },
+  { name: 'VUE.JS', level: 'Advanced', width: '90%' },
+  { name: 'Node.JS', level: 'Advanced', width: '90%' },
+  { name: 'Django', level: 'Advanced', width: '90%' },
+  { name: 'Flask', level: 'Advanced', width: '90%' },
+  { name: 'Asb.NET', level: 'Advanced', width: '90%' },
+  { name: 'Ssis', level: 'Advanced', width: '90%' },
+  { name: 'Informatica power center', level: 'Advanced', width: '90%' },
+  { name: 'My SQL', level: 'Advanced', width: '90%' },
+  { name: 'Microsoft SQL Server', level: 'Advanced', width: '90%' },
+  { name: 'Postgree SQL', level: 'Advanced', width: '90%' },
+  { name: 'Oracle SQL', level: 'Advanced', width: '90%' },
 ];
 
 const additionalSkills = [
   'Git', 'Wordpress', 'Teamwork',
-  'Quick learning', 'Engagement', 'B2 English',
+  'Quick learning', 'Engagement', 'B2 English', 'Data Engineering' , 'Data Analysis'
 ];
 
 const Skills = () => {
