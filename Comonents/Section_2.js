@@ -109,7 +109,7 @@ export default function HeroSection() {
             boxShadow: '0px 10px 20px rgba(0, 201, 255, 0.3)',
           }}
         >
-          <a className="btn" href="./imges/mahmoudamrhassan_resume01.pdf">
+          <a className="btn" href="./imges/mahmoudamrhassn_resume 01.pdf">
             Download CV
           </a>
         </Button></div>

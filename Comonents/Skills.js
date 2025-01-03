@@ -22,8 +22,39 @@ const skills = [
 ];
 
 const additionalSkills = [
-  'Git', 'Wordpress', 'Teamwork',
-  'Quick learning', 'Engagement', 'B2 English', 'Data Engineering' , 'Data Analysis'
+
+  'React',
+  'Angular',
+  'Node.js',
+  'Machine Learning Model',
+  'Deep Learning Model',
+  'Problem Solving',
+  'HTML5, CSS3, JavaScript',
+  'Time Management',
+  'Decision Making',
+  'Creativity',
+  'Analytical',
+  'Research',
+  'Team Leader',
+  'Django',
+  'Flask',
+  'Odoo Developer',
+  'Azure',
+  'Power BI',
+  'Power Center Informatica',
+  'Tableau',
+  'SSIS',
+  // Additional skills
+  'Git',
+  'WordPress',
+  'Teamwork',
+  'Quick Learning',
+  'Engagement',
+  'B2 English',
+  'Data Engineering',
+  'Data Analysis',
+
+
 ];
 
 const Skills = () => {
