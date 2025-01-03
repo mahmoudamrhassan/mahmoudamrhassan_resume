@@ -9,6 +9,7 @@ import AboutMe from "@/Comonents/About";
 import Footer from "@/Comonents/Footer";
 import Timeline from "@/Comonents/Timeline";
 import Awards from "@/Comonents/Awards";
+import Certifications from "@/Comonents/Certifications";
 
 export default function Home() {
   
@@ -22,6 +23,7 @@ export default function Home() {
    <AboutMe></AboutMe>
    {/* <Timeline></Timeline> */}
    <Awards></Awards>
+   {/* <Certifications></Certifications> */}
    <Footer></Footer>
    </div>
 

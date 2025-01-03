@@ -1,7 +1,7 @@
 // components/Footer.js
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faTwitter } from '@fortawesome/free-brands-svg-icons';
+import { faGithub, faLinkedin, faTwitter ,faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 
 const Footer = () => {
 
@@ -18,6 +18,9 @@ const Footer = () => {
           </a>
           <a href="https://twitter.com/"  target="_blank" rel="noopener noreferrer" style={styles.icon}>
             <FontAwesomeIcon icon={faTwitter} size="1x"  className='me-2'style={{width:'50px'}}/>
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=201060860534"  target="_blank" rel="noopener noreferrer" style={styles.icon}>
+            <FontAwesomeIcon icon={faWhatsapp} size="1x"  className='me-2'style={{width:'50px'}}/>
           </a>
         </div>
         <p style={styles.copyright}>
