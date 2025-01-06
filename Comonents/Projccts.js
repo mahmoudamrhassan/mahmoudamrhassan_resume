@@ -118,6 +118,13 @@ import React, { useState } from 'react';
 // ];
 const projects = [
   {
+    title: 'Static Web Application',
+    description: 'A web application to manage and display Services information. Built using  HTML, and CSS.',
+    image: '/imges/static.png',
+    livePreview: 'https://marketing-app-mostakel.netlify.app/',
+    github: 'https://github.com/mahmoudamr5896/Todo-List ',
+  },
+  {
     title: 'Seller List Web Application',
     description: 'A web application to manage and display seller information. Built using vue.js, laravel, HTML, and CSS.',
     image: '/imges/seller-list.png',
