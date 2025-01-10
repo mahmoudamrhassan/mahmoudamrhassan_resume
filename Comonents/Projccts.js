@@ -118,6 +118,13 @@ import React, { useState } from 'react';
 // ];
 const projects = [
   {
+    title: 'Digital Plus Web Application',
+    description: 'A web application to manage and display Services Digital Acounts. Built using Angualr, HTML, and CSS.',
+    image: '/imges/digital.png',
+    livePreview: 'https://nextjs-weld-two-10.vercel.app/',
+    github: 'https://github.com/mahmoudamr5896/Todo-List ',
+  },
+  {
     title: 'Estate Web Application',
     description: 'A web application to manage and display Services Estate. Built using Angualr, HTML, and CSS.',
     image: '/imges/estate.png',
