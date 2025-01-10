@@ -118,6 +118,13 @@ import React, { useState } from 'react';
 // ];
 const projects = [
   {
+    title: 'Estate Web Application',
+    description: 'A web application to manage and display Services Estate. Built using Angualr, HTML, and CSS.',
+    image: '/imges/estate.png',
+    livePreview: 'https://real-estate-mahmoud.vercel.app/',
+    github: 'https://github.com/mahmoudamr5896/Todo-List ',
+  },
+  {
     title: 'Static Web Application',
     description: 'A web application to manage and display Services information. Built using  HTML, and CSS.',
     image: '/imges/static.png',
