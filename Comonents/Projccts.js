@@ -303,7 +303,7 @@ const projects = [
 
 const Projects = () => {
     // Set initial number of projects to display
-    const [visibleProjects, setVisibleProjects] = useState(12);
+    const [visibleProjects, setVisibleProjects] = useState(10);
   
     // Function to handle "See More" click
     const handleSeeMore = () => {
