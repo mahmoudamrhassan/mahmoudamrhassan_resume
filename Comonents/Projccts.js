@@ -30,6 +30,7 @@ const projects = [
     github: 'https://github.com/yourgithub/walmart-sales-analysis',
     category: 'Data Engineer',
   },
+  
   {
     title: 'Real Estate Market Analysis',
     description: 'Processing and analyzing real estate market data to identify trends.',
