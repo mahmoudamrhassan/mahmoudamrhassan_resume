@@ -23,7 +23,7 @@ export default function Home() {
    <AboutMe></AboutMe>
    {/* <Timeline></Timeline> */}
    <Awards></Awards>
-   <Certifications></Certifications>
+   {/* <Certifications></Certifications> */}
    <Footer></Footer>
    </div>
 
