@@ -23,6 +23,33 @@ import { FaLaptopCode, FaDatabase, FaPython } from 'react-icons/fa';
 // ];
 const projects = [
   {
+    title: "Recommender System Courses - Udemy",
+    description: "Developing a recommendation system for Udemy courses using collaborative filtering and machine learning techniques. Tools used: Python, Scikit-learn, Pandas, and Flask.",
+    image: "/imges/udemy.png",
+    livePreview: "",
+    github: "https://github.com/yourgithub/recommender-system-udemy",
+    category: "Data Science"
+}, 
+{
+    title: "Forecasting Avocado Prices",
+    description: "Building a time series forecasting model to predict avocado prices using historical data. Tools used: Python, Pandas, Statsmodels, and Machine Learning techniques.",
+    image: "/imges/MW.jpg",
+    livePreview: "",
+    github: "https://github.com/yourgithub/avocado-price-forecasting",
+    category: "Data Science"
+},
+{
+    title: "Natural Language Processing (NLP)",
+    description: "Implementing NLP techniques for text processing, sentiment analysis, and topic modeling using Python. Tools used: NLTK, SpaCy, and Transformer models.",
+    image: "/imges/nlp.jpg",
+    livePreview: "",
+    github: "https://github.com/yourgithub/nlp-project",
+    category: "Data Science"
+}
+,
+  
+  
+  {
     title: 'Walmart Sales Analysis',
     description: 'Analyzing Walmart sales data to uncover trends and insights.using tools ssis , power bi ,Sql server ,ETL',
     image: '/imges/walmart.png',
@@ -30,7 +57,6 @@ const projects = [
     github: 'https://github.com/yourgithub/walmart-sales-analysis',
     category: 'Data Engineer',
   },
-  
   {
     title: 'Real Estate Market Analysis',
     description: 'Processing and analyzing real estate market data to identify trends.',
