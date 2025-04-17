@@ -90,12 +90,19 @@ export default function HeroSection() {
                 margin: '0 auto',
               }}
             >
-              Full Stack Web Developer graduated from the Information Technology
+              {/* Full Stack Web Developer graduated from the Information Technology
               Institute (ITI), certified by Google as a Data Analyst. I'm
               proficient in JavaScript, ES6, jQuery, React, Python, Django,
               Flask, SQL, PostgreSQL, MySQL, MongoDB, HTML5, CSS3, Bootstrap,
               Git, GitHub, Bash scripting, Apache, Odoo, Docker, C, C++, PHP,
-              and WordPress.
+              and WordPress. */}
+                Data Engineer & Full-Stack Developer
+                Passionate about turning data into insights and ideas into code.
+                 Certified by IBM, Google, and NTI, I specialize in building data pipelines,
+                  dashboards, and scalable web applications. From React and Node.js to Azure,
+                   Power BI, and Apache Spark — I blend software engineering with analytics 
+                   to solve real-world problems.
+
             </p>
             <Button
           variant="primary"
