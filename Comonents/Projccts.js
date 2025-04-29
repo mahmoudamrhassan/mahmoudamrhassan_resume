@@ -258,9 +258,7 @@ const projects = [
     title: 'E-commerce Application',
     description: 'A comprehensive e-commerce solution built with Js , HTML, and CSS.',
     image: '/imges/ecommerce1.png',
-<<<<<<< HEAD
     livePreview: 'http://127.0.0.1:5502/home/homepage.html',
-=======
     livePreview: 'https://ecommerce-iti-html.netlify.app/home/homepage',
     github: 'https://github.com/mahmoudamr5896/',
     category: 'Full Stack Developer',
@@ -271,7 +269,6 @@ const projects = [
     description: 'A comprehensive e-commerce solution built with Js , HTML,  CSS ,and bootstrap.',
     image: '/imges/img12.png',
     livePreview: 'https://ecommaerce.netlify.app/',
->>>>>>> 30dea383f5ac427a1eaf1382aaa0a3d8b33042e6
     github: 'https://github.com/mahmoudamr5896/',
     category: 'Full Stack Developer',
 
