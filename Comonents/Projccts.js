@@ -258,7 +258,7 @@ const projects = [
     title: 'E-commerce Application',
     description: 'A comprehensive e-commerce solution built with Js , HTML, and CSS.',
     image: '/imges/ecommerce1.png',
-    livePreview: '#',
+    livePreview: 'http://127.0.0.1:5502/home/homepage.html',
     github: 'https://github.com/mahmoudamr5896/',
     category: 'Full Stack Developer',
 
