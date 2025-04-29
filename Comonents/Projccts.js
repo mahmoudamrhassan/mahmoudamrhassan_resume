@@ -264,6 +264,15 @@ const projects = [
 
   },
   {
+    title: 'E-commerce Application',
+    description: 'A comprehensive e-commerce solution built with Js , HTML,  CSS ,and bootstrap.',
+    image: '/imges/ecommerce1.png',
+    livePreview: 'https://ecommaerce.netlify.app/',
+    github: 'https://github.com/mahmoudamr5896/',
+    category: 'Full Stack Developer',
+
+  },
+  {
     title: 'Mr. Health Web Application',
     description: 'A health-focused web application for tracking and managing wellness activities, created with Python and Django.',
     image: '/imges/mrhealth.png',
