@@ -249,7 +249,7 @@ const projects = [
     title: 'Clothing Shop Web Application',
     description: 'An e-commerce site specializing in clothing, created using Js, HTML, and CSS.',
     image: '/imges/clothing.jpg',
-    livePreview: '#',
+    livePreview: 'https://website-iti.netlify.app/',
     github: 'https://github.com/mahmoudamr5896/E-commerce-website ',
     category: 'Full Stack Developer',
 
