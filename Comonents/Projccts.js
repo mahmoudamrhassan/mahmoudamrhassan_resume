@@ -159,7 +159,7 @@ const projects = [
     title: 'Crowd Fuinding Web Application',
     description: 'A web application to manage and display Projects. Built using Python, Django, HTML, and CSS.',
     image: '/imges/image2.png',
-    livePreview: '',
+    livePreview: 'https://crowdfuinding.pythonanywhere.com/',
     github: 'https://github.com/mahmoudamr5896/Todo-List ',
     category: 'Full Stack Developer',
 
