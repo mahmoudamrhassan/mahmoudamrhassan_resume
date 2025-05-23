@@ -114,7 +114,7 @@ const projects = [
     title: 'courses Online Web Application',
     description: 'A web application to manage and display courses Online . Built using Python, Django, HTML, and CSS.',
     image: '/imges/image3.png',
-    livePreview: '',
+    livePreview: 'https://mohmmedamr.pythonanywhere.com/onlinecourse/',
     github: 'https://github.com/mahmoudamr5896/Todo-List ',
     category: 'Full Stack Developer',
 
@@ -204,7 +204,7 @@ const projects = [
     title: 'Todo List Project',
     description: 'A simple and interactive to-do list application designed with Python, Django, HTML, and CSS.',
     image: '/imges/todo.png',
-    livePreview: '#',
+    livePreview: 'https://mahmoudamr5896.pythonanywhere.com/',
     github: 'https://github.com/mahmoudamr5896/Todo-List ',
     category: 'Full Stack Developer',
 
@@ -328,7 +328,7 @@ const categories = [
 
 const Projects = () => {
   const [visibleProjects, setVisibleProjects] = useState(10);
-  const [selectedCategory, setSelectedCategory] = useState('Data Science');
+  const [selectedCategory, setSelectedCategory] = useState('Full Stack Developer');
 
   const filteredProjects = projects.filter(project => project.category === selectedCategory);
   const handleSeeMore = () => setVisibleProjects(filteredProjects.length);
