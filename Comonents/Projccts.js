@@ -66,6 +66,23 @@ const projects = [
     category: 'Data Engineer',
   },
   {
+    title: 'Fast Api Web Api Ecommerce',
+    description: 'A web application to manage and display Products and Orders. Built using FastAPi Python.',
+    image: '/imges/fastapi.png',
+    livePreview: '',
+    github: 'https://github.com/mahmoudamrhassan/nextjs',
+    category: 'Full Stack Developer',
+
+  },{
+    title: 'Instgram web App',
+    description: 'A web application to manage and display post and stories. Built using Django, HTML, Janga[Template Engine] ,and CSS.',
+    image: '/imges/instgram.png',
+    livePreview: '',
+    github: 'https://github.com/mahmoudamrhassan/nextjs',
+    category: 'Full Stack Developer',
+
+  },
+    {
     title: 'Digital Plus Web Application',
     description: 'A web application to manage and display Services Digital Acounts. Built using Angualr, HTML, and CSS.',
     image: '/imges/digital.png',
@@ -322,7 +339,7 @@ const projects = [
 ];
 const categories = [
   { name: 'Data Science', icon: <FaDatabase />, description: 'Currently working on data science projects.' },
-  { name: 'Full Stack Developer', icon: <FaLaptopCode />, description: 'Developed projects using HTML, CSS, Flask.' },
+  { name: 'Full Stack Developer', icon: <FaLaptopCode />, description: 'Developed projects using HTML, CSS, Flask ,Django ,React,Angular,Node.js , nest.js .' },
   { name: 'Data Engineer', icon: <FaDatabase />, description: 'Handling data pipelines and engineering projects.' },
 ];
 
